@@ -1,0 +1,9 @@
+﻿  PP_Lab2.cpp
+C:\Users\Johnny\source\repos\PP_Lab2\PP_Lab2\PP_Lab2.cpp(13,26): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Johnny\source\repos\PP_Lab2\PP_Lab2\PP_Lab2.cpp(106,46): warning C4244: +=: преобразование "double" в "DWORD", возможна потеря данных
+  Создание кода
+  1 of 159 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  PP_Lab2.vcxproj -> C:\Users\Johnny\source\repos\PP_Lab2\x64\Release\PP_Lab2.exe
