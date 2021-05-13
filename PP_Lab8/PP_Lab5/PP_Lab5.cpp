@@ -29,6 +29,8 @@ int main(int argc, char* argv[])
         std::cout << (dirEntry.path().string()).c_str() << std::endl;
         
         bitmap* out = new bitmap((outputDir + "\\" + dirEntry.path().filename().string()).c_str());
+        out = new bitmap((dirEntry.path().string()).c_str());
+        out->save((outputDir + "\\" + dirEntry.path().filename().string()).c_str());
         allOuts.push_back(out);
 
         for (int i = 0; i < amountOfBlocksPerImage; i++)
